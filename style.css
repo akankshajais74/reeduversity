@@ -1,0 +1,352 @@
+@import url('https://fonts.googleapis.com/css2?family=Radio+Canada:wght@300;400;500;600;700&family=Song+Myung&display=swap');
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+body{
+    font-family: 'Radio Canada';
+    overflow-x: hidden;
+}
+a{
+    text-decoration: none;
+    color: #fff;
+}
+
+/* HEADER INFO  */
+.header-info{
+    background: #83984A;
+}
+.header-info a{
+    color: #fff;
+}
+
+/* LOGO CONTAINER  */
+.logo-container h2 {
+    margin-top: -1rem;
+    font-family: 'Song Myung';
+    font-size: 24px;
+    line-height: 29px;
+    color: #022249;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+/* NAVBAR  */
+nav.navbar {
+    background: #37465D;
+    color: #fff;
+}
+nav.navbar .navbar-nav{
+    flex-direction: row;
+}
+nav.navbar .navbar-nav .nav-link{
+    padding: 0;
+    color: #fff;
+}
+nav.navbar .navbar-nav .nav-link.btn{
+    border-radius: 30px;
+    padding: .25rem .75rem;
+    font-weight: 700;
+}
+
+nav.navbar .navbar-nav .nav-link.dashboard-link{
+    background: #83984A;
+}
+nav.navbar .navbar-nav .nav-link.hire-now-link{ 
+    background: #fff;
+    color: #022249;
+}
+
+/* WHY US CONTAINER */
+.why-container h2{
+    font-size: 54px;
+    line-height: 48px;
+    color: #022249;
+    border: 0.5px solid #FFFFFF;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.why-container .row .odd{
+    background: #022249;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+    color: #f0f0f0;
+    min-height: 380px;
+}
+.why-container .row .even{
+    background: #F0F0F0;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+    color: #022249;
+    min-height: 380px;
+}
+
+
+/* FEATURES */
+.features-section{
+    background: url('./features-bg.png') no-repeat center center/cover;
+}
+.features-section .overlay{
+    background: rgba(5, 2, 2, 0.8);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    height: 100%;
+    color: #fff;
+}
+.features-section .overlay .row{
+    height: 100%;
+}
+.features-section .overlay img{
+    height: 50px;
+    width: 50px;
+    margin-bottom: 10px;
+}
+.features-section .overlay h5{
+    font-size: 15.5px;
+    line-height: 17.5px;
+}
+.features-section .overlay .center{
+    border-left: 5px solid #fff;
+    border-right: 5px solid #fff;
+}
+.features-section .overlay .center h6{
+    line-height: 50px;
+    margin-bottom: 0;
+    font-size: 20px;
+    letter-spacing: 3px;
+}
+
+/* SUCCESS SECTION  */
+.success-section{
+    background: #001931;
+}
+.success-section h4 {
+    font-weight: 400;
+    font-size: 32px;
+    letter-spacing: 3px;
+    color: #f07c41;
+}
+.success-section h3 {
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 36px;
+    color: #F07C41;
+    margin-bottom: 0px;
+}
+.success-section h5 {
+    font-size: 18.5px;
+    line-height: 24px;
+    color: #fff;
+    margin-bottom: 0px;
+}
+.success-section-2 .col-3.one,
+.success-section-2 .col-3.two,
+.success-section-2 .col-3.three{
+    border-right: 2.5px solid #001931;
+}
+.success-section-2 .col-3.two,
+.success-section-2 .col-3.three,
+.success-section-2 .col-3.four{
+    border-left: 2.5px solid #001931;
+}
+
+
+/* CONTACT  */
+.contact-section{
+    background: rgba(217, 255, 225, 0.51);
+    box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.contact-section h2{
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 38px;
+    color: rgba(89, 242, 187, 0.69);
+}
+.contact-section .input-container{
+    width: 250px;
+    height: 35px;
+    margin: auto;
+}
+.contact-section .input-container input{
+    outline: none;
+    border: none;
+    font-size: 14.5px;
+    line-height: 19px;
+    color: rgba(0, 0, 0, 0.44);
+    height: 35px;
+    padding: .25rem .5rem;
+}
+.contact-section .input-container img{
+    height: 35px;
+    width: 35px;
+    margin-left: -10px;
+}
+/* TOP RECRUITERS */
+.top-recruiters {
+    border-bottom: 10px solid #022249;
+}
+.top-recruiters h2{
+    font-size: 32px;
+    line-height: 38px;
+    color: #001931;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.top-recruiters .row{
+    background: rgba(216, 211, 211, 0.38);
+}
+.top-recruiters img{
+    max-width: 100px;
+    margin: auto;
+
+}
+
+/* TESTIMONIALS */
+.testimonials-section h2{
+    font-size: 34px;
+    line-height: 38px;
+    color: #001931;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.testimonials-section .testimonial-card{
+    min-height: 480px;
+    max-width: 450px;
+    margin: auto;
+}
+.testimonials-section .testimonial-card.odd{
+    background: #022249;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 27px;
+}
+.testimonials-section .testimonial-card.even{
+    background: #F0F0F0;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 27px;
+}
+.testimonials-section .testimonial-card h3{
+    display: inline-block;
+    border-bottom: 3px solid rgba(240, 240, 240, 0.61);
+    font-size: 28px;
+    line-height: 32px;
+    color: #f0f0f0;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.testimonials-section .testimonial-card h3 span{
+    color: #FF9560;
+}
+.testimonials-section .testimonial-card h5{
+    font-size: 17.5px;
+    line-height: 21px;
+    color: #F0F0F0;
+}
+.testimonials-section .testimonial-card h6{
+    display: inline-block;
+    font-size: 12px;
+    line-height: 20px;
+    color: #022249;
+    background: #f0f0f0;
+    border-radius: 2px;
+}
+.testimonials-section .testimonial-card p{
+    font-size: 14px;
+    line-height: 22px;
+    color: #F0F0F0;
+}
+
+.testimonials-section .testimonial-card.even h3{
+    display: inline-block;
+    border-bottom: 3px solid rgba(2,34,73,.7);
+    font-size: 28px;
+    line-height: 32px;
+    color: #022249;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.testimonials-section .testimonial-card.even h5{
+    color: #022249;
+}
+.testimonials-section .testimonial-card.even h6{
+    color: #f0f0f0;
+    background: #022249;
+}
+.testimonials-section .testimonial-card.even p{
+    color: #022249;
+}
+
+/* FOOTER  */
+.footer-section .top,
+.footer-section .bottom{
+    background: #022249;
+}
+.footer-section .middle .middle{
+    background: rgba(216, 211, 211, 0.38);
+}
+.footer-section .middle h3{
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 19px;
+    color: #022249;    
+}
+.footer-section .middle h6{
+    font-size: 14px;
+    line-height: 24px;
+    color: #022249;
+    margin-bottom: 0;
+}
+.footer-section .middle hr{
+    margin-top: 0;
+    margin-bottom: 1rem;
+    border-top: 3px solid #022249;
+    opacity: 1;
+}
+.footer-section .middle .hr-1{
+    width: 50px;
+}
+.footer-section .middle hr{
+    width: 90px;
+}
+.footer-section .middle .join-us-input{
+    margin-bottom: 1rem;
+    width: 300px;
+    
+}
+.footer-section .middle .join-us-input input{
+    background: rgba(24, 30, 35, 0.1);
+    border-radius: 4px;
+    color: #022249;
+    font-size: 15px; 
+    width: 200px;
+    height: 30px;
+    padding-left: 5px;
+    border: none;
+}
+.footer-section .middle .join-us-input button{
+    width: 80px;
+    border-radius: 3px;
+    background: #022249;
+    color: #fff;
+    font-style: 12px;
+    font-weight: 700;
+    margin-left: -10px;
+    height: 30px;
+    border: none;
+}
+.footer-section .middle .socials i{
+    font-size: 25px;
+    color: #022249
+} 
+.footer-section .middle h5{
+    font-weight: 700px;
+    color: #022249;
+}
+.footer-section .middle h5 hr{
+    margin: auto;
+}
+
+
+.footer-section .top p{
+    font-size: 15px;
+    line-height: 24px;
+    color: #FFFFFF;
+}
+.footer-section .bottom p{
+    font-size: 14px;
+    line-height: 24px;
+    color: #FFFFFF;
+}
